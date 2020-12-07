@@ -1,0 +1,19 @@
+apply plugin: 'groovy'
+
+repositories {
+    maven { url 'http://maven.aliyun.com/nexus/content/repositories/google' }
+    maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
+    google()
+    jcenter()
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation 'com.android.tools.build:gradle:4.1.0'
+//    implementation 'org.ow2.asm:asm-all:5.2'
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
