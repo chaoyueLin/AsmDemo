@@ -5,6 +5,9 @@
 .DS_Store
 /build/
 /AsmDemo/app/build/
+/AsmDemo/buildSrc/build/
+/AsmThreadDemo/app/build/
+/AsmThreadDemo/buildSrc/build/
 /captures
 .externalNativeBuild
 .cxx
